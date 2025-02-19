@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+body{
+  font-family: "Satisfy", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color:#f08080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.session-question{
+padding: 0em 1em;
+}
+.question{
+    color: #ffff;
+    display: flex;
+
+   word-wrap: break-word;
+
+}
+.button{
+    border-radius: 12px;
+    border: solid 2px;
+    border-color: #000000;
+    background-color: #000000;
+    color: #ffff;
+    display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+    width:90px;
+    height: 30px;
+    
+}
+.session{
+     
+    justify-content: center;
+    display: flex;
+    gap: 2em;
+}
