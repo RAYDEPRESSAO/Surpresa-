@@ -60,6 +60,8 @@ body {
   top: 12px;
 }
 .text {
+ word-wrap: break-word;
+ padding: 1em;
   position: absolute;
   font-family: "Brush Script MT", cursive;
   font-size: 12px;
